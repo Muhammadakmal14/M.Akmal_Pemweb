@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Ruangan</title>
+</head>
+<body>
+     <!-- fieldset & legend -->
+     <fieldset>
+        <legend>Booking Ruangan</legend>
+        <div style="display: flex;">
+            <!-- asside -->
+            <aside style="margin-left: 150px;">
+                <form action="" method="POST">
+                    <table>
+                        <tr>
+                            <td>Nama Peminjam:</td>
+                            <td><textarea name="description" placeholder="Enter Description" cols="50" rows="1"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Ruangan:</td>
+                            <td>
+                                <select>
+                                    <option value="ruangan">Aula Cendrawasih</option>
+                                    <option value="ruangan">Aula Cakrawala</option>
+                                    <option value="ruangan">Aula Katsuari</option>
+                                    <option value="ruangan">Aula Merpati</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Deskripsi Kegiatan:</td>
+                            <td><textarea name="description" placeholder="Enter Description" cols="50" rows="4"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Fasilitas Tambahan:</td>
+                            <td>
+                                <input type="checkbox" name="permit" value="mobile">Sound Sistem
+                                <input type="checkbox" name="permit" value="email">Wifi
+                                <input type="checkbox" name="permit" value="ewallet">Layar Besar
+                                <input type="checkbox" name="permit" value="ewallet">Katering
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Pinjam:</td>
+                            <td><input type="date" name="tgl"></td>
+                        </tr>
+                        <tr>
+                            <td>Kontak Person:</td>
+                            <td><input type="text" name="+62" placeholder="+62"></td>
+                        </tr>
+                        <tr>
+                            <td>Telphone/HP:</td>
+                            <td><input type="text" name="+62" placeholder="+62"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email" placeholder="Enter Email"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="proses" value="Submit" style="box-shadow: 4px 3px 2px black; background-color: blue; color:white;"></td>
+                            <td><input type="reset" name="unproses" value="Reset" style="box-shadow: 4px 3px 2px black; background-color: red; color:white;"></td>
+                        </tr>
+                    </table>
+
+
+
+
+
+
